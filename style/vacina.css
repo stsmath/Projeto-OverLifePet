@@ -1,0 +1,259 @@
+body, html{
+   height: 100%;
+}
+
+body{
+   margin:10px;
+   background: #fff;
+}
+/* Conteúdo referente ao cabeçalho */
+.logo {
+    width: 200px;
+}
+.cabecalho{
+border: solid 1px;
+margin: 0;
+background: #44b6c9;
+}
+#search-box {
+    position: relative;
+    width: 20%;
+    float: right;
+    margin-top: 1.5%;
+}
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #065867; /*--define a cor do botão Buscar--*/
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+
+/*Conteúdo referente ao menu */
+
+#menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #065867;
+}
+.menu{
+    margin-left: 30%;
+    font-size: 20px;
+}
+.menu-principal {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu-principal a:hover{
+    color: #303030;
+    background-color: white;
+    
+}
+
+
+/*   CONTEÚDO DA SUA PÁGINA VAI ABAIXO   */
+
+#conteudo-da-pagina{ 
+    width: 90%;
+    height: 1000px;     /* aqui é o espaço em branco da página, onde se coloca o seu conteúdo */
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.conteiner{
+   display:block;
+   width:90%;
+   padding: 10px 0px;
+   margin: 0 auto;
+}
+.linha{
+   display: block;
+   width: 90%;
+   margin-bottom: 10px;
+  
+}
+
+.article-1{
+   border:1px solid transparent;
+   border-radius:500px;
+}
+.article{
+   display: inline-block;
+   width: 240px;
+   height: 195px;
+   margin:0 17px;
+}
+.article-1:hover{
+   border:1px solid #3399ff;
+   transition:2s;
+}
+
+.img-conteiner{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner1{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina1.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner2{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina2.jpg');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner3{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina3.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner4{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina4.jpg');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner5{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina1.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner6{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina3.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+.img-conteiner7{
+   display: block;
+   height: 150px;
+   width:150px;
+   background-image:url('../img/vacina/vacina5.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   margin:5px auto;
+}
+
+/*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfDoBkR4NikUlU8cHI901w7_CW4nXkfuT9NPJWJo1DcMK9Uog-
+  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbiyhwdc2HMc-6Mx0E8vRZo_VVXo8xf6klVUXEjonft8dxbaz-
+  http://ranchosveterinaria.com.br/wp-content/uploads/2017/01/foto-tri-baby.png
+  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGcONuInZ6FqPvj2reUQiIMvfq2p4Uut5Ji3hVYJfFsP6wlDDh
+  https://www.petcgfk.com/wp-content/uploads/2016/09/Parvo-3.jpg
+  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotMBf5Krcl_-mvoR1mKRc3c9tAVKj2dy10OEpqOlgOfQkZvPt
+  links das imagens usadas no site*/
+
+
+.link-vacinas{
+  display: block;
+   width:25%;
+   margin: 0 auto; 
+}
+
+
+
+
+
+/* Rodapé */
+
+.rodape {
+    margin: 0 auto;
+    clear: both;
+    background-color: #222222;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+}
+.rodape {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rodape p{
+    padding: 15px;
+    text-align: center;
+}
+
+/*Formatação de textos*/
+
+.chamadas{
+   color: rgb(0, 138, 230);
+   text-shadow: 1px 1px 1px #005c99;
+   text-align: center;
+   font-size:36px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #b3b3b3;
+}

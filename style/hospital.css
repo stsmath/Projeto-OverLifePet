@@ -1,0 +1,327 @@
+body{
+    margin:0;
+   padding:0;
+   height:100%;
+}
+/* Conteúdo referente ao Logo e cabeçalho */
+.logo {
+    width: 150px;
+}
+.cabecalho{
+border: solid 0px;
+margin: 0;
+background: #44b6c9;
+}
+#search-box {
+    position: relative;
+    width: 20%;
+    float: right;
+    margin-top: 1.5%;
+}
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #065867; /*--define a cor do botão Buscar--*/
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+
+/* Conteúdo referente ao Menu */
+
+#menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #065867;
+    font-family: sans-serif;
+}
+.menu{
+    margin-left: 30%;
+    font-size: 20px;
+}
+.menu-principal {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu-principal a:hover{
+    color: #303030;
+    background-color: white;
+    
+}
+
+
+/*  ______________________________________________________ CONTEÚDO DA SUA PÁGINA VAI ABAIXO  ______________________________________________________ */
+
+#conteudo{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    font-family: sans-serif, courier;
+    border-radius: 10px;
+}
+
+/* CONTEUDO DA PAGINA, AS DIVS ONDE AS IMAGENS E TEXTOS ESTÃO */
+.cirurgias{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto;
+    margin-left: 8%;
+
+}
+.laboratorio{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.equipamentos{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.farmacia{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 8%;
+}
+.vacinas{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.dentista{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+
+
+/* TAMANHO DAS IMAGENS E OPACIDADE DELAS */
+.cirurgias img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    opacity: 0.5;
+
+}
+.equipamentos img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    opacity: 0.5;
+
+}
+.laboratorio img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+.farmacia img{
+    width: 300px;
+    height: 300px;    
+    border-radius: 100%;
+    opacity: 0.5;
+}
+.vacinas img{
+    width: 300px;
+    height: 300px;    
+    border-radius: 100%;
+    opacity: 0.5;
+}
+.dentista img{
+    width: 300px;
+    height: 300px;    
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+
+
+
+/* CONTEUDO DOS TEXTOS EMBAIXO DAS IMAGENS */
+
+.cirurgias p{
+    text-align: center;
+    font-size: 20px;
+}
+.laboratorio p{
+    text-align: center;
+    font-size: 20px;
+}
+.equipamentos p{
+    text-align: center;
+    font-size: 20px;
+}
+.farmacia p{
+    text-align: center;
+    font-size: 20px;
+}
+.vacinas p{
+    text-align: center;
+    font-size: 20px;
+}
+.dentista p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+/* TEXTO NO INICIO DA PAGINA*/
+#conteudo h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+/* REMOVENDO O AZUL DO LINK DO TEXTO */
+.cirurgias a{
+    text-decoration: none;
+    color: black;
+}
+.laboratorio a{
+    text-decoration: none;
+    color: black;
+}
+.equipamentos a{
+    text-decoration: none;
+    color: black;
+}
+.farmacia a{
+    text-decoration: none;
+    color: black;
+}
+.vacinas a{
+    text-decoration: none;
+    color: black;
+}
+.dentista a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* EFEITOS DAS IMAGENS CRESCENDO */
+.cirurgias img:hover{
+    opacity: 1.0;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.laboratorio img:hover{
+    opacity: 1.0;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.equipamentos img:hover{
+    opacity: 1.0;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.farmacia img:hover{
+    opacity: 1.0;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.vacinas img:hover{
+    opacity: 1.0;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.dentista img:hover{
+    opacity: 1.0;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+/* Rodapé */
+
+.rodape {
+    margin: 0 auto;
+    clear: both;
+    background-color: #222222;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+}
+.rodape {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rodape p{
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="favicon/favicon.png" />
+    <meta charset="utf-8" />
+    <title>Banho e Tosa</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/banhoetosa.css">
+    <style>
+        body{
+            background: #165064 url("img/fundo2.jpg") repeat-x;
+            background-size: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Cabeçalho -->    
+    <header class="cabecalho"> 
+            <a href="homepage.html"><img class="logo" src="img/OLPlogo.png"></a>
+            <div id='search-box'>
+                <form action='/search' id='search-form' method='get' target='_top'>
+                  <input id='search-text' name='q' placeholder='Faça Sua pesquisa...' type='text'/>
+                  <button id='search-button' type='submit'><span>Pesquisar</span></button>
+                </form>
+              </div> 
+    </header>
+    
+        <!-- Menu -->
+        
+        <nav>
+            <ul id="menu">
+                <div class="menu">
+        
+                    <li class="menu-principal">
+                        <a href="homepage.html">Home</a>
+                    </li>
+        
+                    <li class="menu-principal">
+                        <a href="produtos.html"> Produtos</a>
+                    </li>
+        
+                    <li class="menu-principal">
+                        <a href="petshop.html">Pet shop</li>
+                    </a>
+        
+                    <li class="menu-principal">
+                        <a href="hospital.html">Hospital Veterinário</li>
+                    </a>
+        
+                    <li class="menu-principal">
+                        <a href="sobre.html"> Sobre </a>
+                    </li>
+        
+                </div>
+            </ul>
+        </nav>
+    
+    <!--   CONTEÚDO DA SUA PÁGINA VAI ABAIXO   -->
+    <article id="conteudo-da-pagina">
+        <div id="banho">
+            <h2>Banho e Tosa</h2>
+        </div>
+        <div id="imgs">
+            <!--Imagem do cachorro tomando banho-->
+        </div>
+        <div id="imgs2">
+                <!--Imagem do gato tomando banho-->
+        </div>
+        <div id="texto">
+            <p>Nosso banho e tosa disponibiliza um serviço de cadastro, pra que nossos clientes
+                recebam descontos pra próxima vez que ele trouxer seu lindo pet pra um banho,
+                relaxante e confortável, além de ter descontos com produtos, como pentes, shampoos e etc.<br><br> Contamos com uma equipe de tosadores e banhistas experientes e carinhosos, treinados para identificar eventuais problemas de pele ou otite, e a presença de ectoparasitas, e nesses casos solicitar avaliação do Médico Veterinário. </p>
+        </div>
+        <div id="form">
+            <form action="servidor.html"
+				    method="post"
+                    enctype="multipart/form-data">
+            <fieldset>
+                <legend>Cadastro</legend>
+                Data da visita:<br> 
+                <input  type="date"
+					min="2018-01-01"
+					max="2018-12-30"
+                    name="dVisita"
+                    required> <br>
+                    Hora da Visita:<br>
+			<input  type="time"
+					min="09:00"
+					max="18:30"
+                    name="hVisita"
+                    required> <br>
+                Tipo:
+                <input type="radio" name="tipo" value="G" checked>Gato
+                <input type="radio" name="tipo" value="C">Cachorro
+                <input type="radio" name="tipo" value="O">Outros<br>
+                Porte:
+                <input type="radio" name="porte" value="P" checked>Pequeno
+                <input type="radio" name="porte" value="M">Médio
+                <input type="radio" name="porte" value="G">Grande<br>
+                E-mail:<br>
+			    <input 	type="email"
+					name="email"
+					size="50"
+					required
+                    maxlength="80"
+                    required> <br>
+                Telefone pra Contato:<br>
+                <input type="phone" 
+                name="telefone"
+                placeholder="Ex: (11) 99999-9999"
+                required><br>
+               N&ordm; de Pets:<br>
+			    <input 	type="number"
+					min="1"
+					max="10"
+                    value="1"
+                    required> <br>
+                <p>Observações</p>
+			    <textarea name="Observações"
+				placeholder="Observações sobre seu pet"
+				rows="3" cols="50"></textarea><br>
+                <input type="submit" value="Agendar">
+            </fieldset>    
+            </form>
+        </div>
+
+    </article>
+    <!-- Rodapé -->
+<footer>
+    <div class="rodape">
+        <p> Todos os Direitos Reservados</p>
+
+    </div>
+</footer>
+
+</body>
+</html>
